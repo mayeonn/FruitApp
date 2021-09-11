@@ -11,30 +11,30 @@ public class Fruit implements Comparable<Fruit>{
 	public static void main(String args[]) {
 		List<Fruit> al = new ArrayList<Fruit>();
 		System.out.println("Fruit List (ordered by name)");
-		Fruit s1 = new Fruit(1,"김하연",25);
+		Fruit s1 = new Fruit(1,"수박",20000);
 		al.add(s1);
-		Fruit s2 = new Fruit(2,"기마연",22);
+		Fruit s2 = new Fruit(2,"참외",10000);
 		al.add(s2);
-		Fruit s3 = new Fruit(3,"김이름",99);
+		Fruit s3 = new Fruit(3,"메론",15000);
 		al.add(s3);
-		Fruit s4 = new Fruit(4,"나천재",17);
+		Fruit s4 = new Fruit(4,"망고",9900);
 		al.add(s4);
-		Fruit s5 = new Fruit(5,"바나나",5);
+		Fruit s5 = new Fruit(5,"바나나",2900);
 		al.add(s5);
-		Fruit s6 = new Fruit(6,"아이유",32);
+		Fruit s6 = new Fruit(6,"패션후르츠",13000);
 		al.add(s6);
-		Fruit s7 = new Fruit(7,"마싫어",9);
+		Fruit s7 = new Fruit(7,"매실",50000);
 		al.add(s7);
-		Fruit s8 = new Fruit(8,"다롱이",3);
+		Fruit s8 = new Fruit(8,"무화과",22000);
 		al.add(s8);
-		Fruit s9 = new Fruit(9,"사비나",28);
+		Fruit s9 = new Fruit(9,"사과",5000);
 		al.add(s9);
-		Fruit s10 = new Fruit(10,"라디옹",29);
+		Fruit s10 = new Fruit(10,"거봉",7700);
 		al.add(s10);
 		
 		 
 		Collections.sort(al);
-		for(Fruit s : al) {
+		for(Fruit s : al) { 
 			System.out.println(s.toString());
 		}
 		
